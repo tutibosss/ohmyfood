@@ -1,0 +1,72 @@
+.conteneur-carte{
+    @include center;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.carte{
+    @include center;
+    @include ctr-box;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 70%;
+    flex-direction: column;
+    &_MP{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        &_DT{
+            font-size: 1.5em;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            & dd{
+                width: 20%;
+                text-align: center;
+                margin: 0;
+            }& dt{
+                width: 70%;
+                padding-left: 10%;
+            }
+        }& ul{
+            font-size: 1.5em;
+            list-style: none;
+            padding-left: 10%;
+        }
+    }
+}
+
+.titre{
+    font-size: 2.7em;
+    &_carte{
+        font-size: 2.6em;
+        margin-top: 10px;
+    }&_Pcarte{
+        font-size: 2em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        &:hover .anim-soul{
+            animation: souligne .5s forwards;
+        }
+    }&_carte2{
+        font-size: 2.2em;
+    }
+}
+
+.anim-soul{
+    height: 3px;
+}
+
+.dessin{
+    @include center;
+    &_G{
+        @include dessin;
+    }&_D{
+        @include dessin;
+       @include Rdessin;
+    }
+}

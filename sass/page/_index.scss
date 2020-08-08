@@ -1,0 +1,49 @@
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    &_menu{
+        @include center;
+        @include ctr-box;
+        flex-direction: column;
+        width: 40%;
+        height: 600px;
+        margin-top: 50px;
+        &:hover .zoom{
+           animation: zoom ease-in-out .5s forwards;
+        }& h2{
+            font-size: 2.5em;
+            margin-top: 0.3em;
+        }& p{
+            font-size: 2em;
+            margin-bottom: 0;
+            margin-top: 10px;
+        }
+    }
+}
+
+.prc{
+    @include center;
+    width: 100%;
+    &_btn{
+        @include center;
+        @include colour-logo;
+        font-size: 2.8em;
+        width: 30%;
+        height: 70px;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 10px;
+        &:hover {
+            & > .point1{
+                animation: point .5s ease-in-out infinite;
+            }& .point2{
+                animation: point .5s ease-in-out .15s infinite;
+            }& .point3{
+                animation: point .5s ease-in-out .3s infinite;
+            }
+        }
+    }
+}

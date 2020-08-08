@@ -1,0 +1,63 @@
+@media screen and (max-width: 1280px){
+    body{
+        margin: auto;
+        text-align: center;
+    }
+    /*header*/
+    .header_logo{
+        font-size: 4em;
+    }
+    /*footer*/
+    footer{
+        flex-direction: column;
+        @include center;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        &_logo{
+            font-size: 2.5em;
+        }
+    }
+    /* index */
+    .nav{
+        flex-direction: column;
+        align-items: center;
+        &_menu{
+            width: 90%;
+            height: 400px;
+        }
+    }
+
+    .prc_btn{
+        width: 80%;
+        font-size: 2.2em;
+
+    }
+
+    /* menu */
+    .carte{
+        width: 90%;
+        align-items: center;
+    }
+
+    dl{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    dt{
+        padding-right: 10%;
+        width: 100%;
+    }
+
+    dd{
+        padding-bottom: 30px;
+    }
+
+    ul{
+        padding-right: 10%;
+    }
+    
+    li{
+        margin-bottom: 30px;
+    }
+}

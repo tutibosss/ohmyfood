@@ -1,0 +1,17 @@
+.coul{
+    background: linear-gradient(to right, $colour-CLA-prim,$colour-CLA-second,$colour-CLA-third);
+    @include transparent;
+    &_CLA1{
+    color: $colour-CLA-prim;
+    }&_CLA_1{
+        fill: $colour-CLA-prim;
+    }&_CLA2{
+        color: $colour-CLA-second;
+    }&_CLA_2{
+        fill: $colour-CLA-second;
+    }&_CLA3{
+        color: $colour-CLA-third;
+    }&_CLA_3{
+        fill: $colour-CLA-third;
+    }
+}

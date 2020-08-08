@@ -1,0 +1,32 @@
+.header{
+    background-color: $colour-primary;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    &_logo{
+        font-size: 7em;
+        color: $colour-logo;
+    }
+}
+
+.footer{
+    position: sticky;
+    bottom: 0;
+    background-color: $colour-primary;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    &_logo{
+        font-size: 3em;
+        color: $colour-logo;
+        margin-left: 40px;
+        margin-right: 40px;
+        &:hover{
+            animation: wiggle .1s linear infinite;
+        }
+    }
+}

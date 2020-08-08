@@ -1,0 +1,41 @@
+@keyframes souligne{
+    from{
+        background-color: black;
+        height: 3px;
+        width: 0%;
+    }
+    to{
+        height: 3px;
+        background-color: black;
+        width: 100%;
+    }
+}
+
+@keyframes point{
+    0%{
+        @include anim-point;
+    }
+    50%{
+        @include anim-point;
+        transform: translateY(-3px);
+    }
+    100%{
+        @include anim-point;
+    }
+}
+
+@keyframes wiggle{
+    33%{
+        transform: rotate(3deg);
+    }
+    66%{
+        transform: rotate(-3deg);
+    }
+}
+
+@keyframes zoom{
+    100%{
+        transform: scale(1.3);
+        opacity: 60%;
+    }
+}

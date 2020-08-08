@@ -1,0 +1,22 @@
+.LNE{
+    color: $colour-primary-LNE;
+    background-color: $colour-spe-menu;
+    & path{
+        fill: $colour-primary-LNE;
+    }
+}
+
+.musique{
+    background: linear-gradient(to right,$colour_deg1_LNE, $colour_deg2_LNE);
+    @include transparent;
+    &_spe{
+        margin: auto;
+        margin-right: 20px;
+    }&_menu{
+        margin-bottom: 10px;
+    }
+}
+
+.P_P_LNE{
+    @include center;
+}

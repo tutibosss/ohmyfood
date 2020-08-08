@@ -1,0 +1,41 @@
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin colour-logo{
+    background-color: $colour-primary;
+    color: $colour-logo;
+}
+
+@mixin ctr-box{
+    box-shadow: 3px 3px 0px grey;
+    border: 1px solid grey;
+}
+
+@mixin dessin {
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@mixin Rdessin{
+    transform: rotate(180deg);
+    transform: rotatey(180deg);
+}
+
+@mixin anim-point{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+@mixin transparent{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
