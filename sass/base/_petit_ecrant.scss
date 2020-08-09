@@ -1,20 +1,24 @@
-@media screen and (max-width: 1280px){
+@media screen and (max-width: 600px){
     body{
         margin: auto;
         text-align: center;
     }
     /*header*/
-    .header_logo{
+    .header{
+        height: 150px;
+        &_logo{
         font-size: 4em;
+        }
     }
     /*footer*/
-    footer{
+    .footer{
         flex-direction: column;
         @include center;
         padding-bottom: 20px;
         padding-top: 20px;
+        height: 60px;
         &_logo{
-            font-size: 2.5em;
+            font-size: 2em;
         }
     }
     /* index */
@@ -23,20 +27,44 @@
         align-items: center;
         &_menu{
             width: 90%;
-            height: 400px;
+            height: 350px;
+            & p{
+                font-size: 1.2em;
+            }& h2{
+                font-size: 2em;
+            }
         }
     }
 
     .prc_btn{
-        width: 80%;
-        font-size: 2.2em;
+        width: 85%;
+        font-size: 1.8em;
 
     }
 
     /* menu */
+    .titre{
+        font-size: 2em;
+        &_carte{
+            font-size: 1.9em;
+        }&_Pcarte{
+            font-size: 1.3em;
+            max-width: 42%;
+        }&_carte2{
+            font-size: 1.6em;
+        }
+    }
+
     .carte{
-        width: 90%;
+        width: 95%;
         align-items: center;
+        padding-bottom: 0;
+        &_MP{
+            margin: 0;
+            &_DT{
+                margin: 0;
+            }
+        }
     }
 
     dl{
@@ -47,10 +75,13 @@
     dt{
         padding-right: 10%;
         width: 100%;
+        font-size: 0.8em;
     }
 
     dd{
         padding-bottom: 30px;
+        font-size: 0.8em;
+        padding-top: 10px;
     }
 
     ul{
@@ -59,5 +90,6 @@
     
     li{
         margin-bottom: 30px;
+        font-size: 0.8em;
     }
 }

@@ -107,7 +107,6 @@ a {
   box-shadow: 3px 3px 0px grey;
   border: 1px solid grey;
   margin-bottom: 30px;
-  padding-bottom: 30px;
   padding-top: 30px;
   width: 70%;
   flex-direction: column;
@@ -293,6 +292,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 #Dgradiant {
@@ -334,28 +334,32 @@ a {
   fill: #229df9;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 600px) {
   body {
     margin: auto;
     text-align: center;
   }
 
   /*header*/
+  .header {
+    height: 150px;
+  }
   .header_logo {
     font-size: 4em;
   }
 
   /*footer*/
-  footer {
+  .footer {
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
     padding-top: 20px;
+    height: 60px;
   }
-  footer_logo {
-    font-size: 2.5em;
+  .footer_logo {
+    font-size: 2em;
   }
 
   /* index */
@@ -365,18 +369,45 @@ a {
   }
   .nav_menu {
     width: 90%;
-    height: 400px;
+    height: 350px;
+  }
+  .nav_menu p {
+    font-size: 1.2em;
+  }
+  .nav_menu h2 {
+    font-size: 2em;
   }
 
   .prc_btn {
-    width: 80%;
-    font-size: 2.2em;
+    width: 85%;
+    font-size: 1.8em;
   }
 
   /* menu */
+  .titre {
+    font-size: 2em;
+  }
+  .titre_carte {
+    font-size: 1.9em;
+  }
+  .titre_Pcarte {
+    font-size: 1.3em;
+    max-width: 42%;
+  }
+  .titre_carte2 {
+    font-size: 1.6em;
+  }
+
   .carte {
-    width: 90%;
+    width: 95%;
     align-items: center;
+    padding-bottom: 0;
+  }
+  .carte_MP {
+    margin: 0;
+  }
+  .carte_MP_DT {
+    margin: 0;
   }
 
   dl {
@@ -387,10 +418,13 @@ a {
   dt {
     padding-right: 10%;
     width: 100%;
+    font-size: 0.8em;
   }
 
   dd {
     padding-bottom: 30px;
+    font-size: 0.8em;
+    padding-top: 10px;
   }
 
   ul {
@@ -399,6 +433,7 @@ a {
 
   li {
     margin-bottom: 30px;
+    font-size: 0.8em;
   }
 }
 
