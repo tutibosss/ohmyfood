@@ -115,7 +115,6 @@ a {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 30px;
   margin-top: 30px;
 }
 .carte_MP_DT {
@@ -126,17 +125,26 @@ a {
 }
 .carte_MP_DT dd {
   width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin: 0;
 }
 .carte_MP_DT dt {
   width: 70%;
+  margin-bottom: 7px;
+  margin-top: 7px;
   padding-left: 10%;
 }
 .carte_MP ul {
   font-size: 1.5em;
   list-style: none;
   padding-left: 10%;
+}
+.carte_MP ul li {
+  margin-bottom: 7px;
+  margin-top: 7px;
 }
 
 .titre {
@@ -334,6 +342,79 @@ a {
   fill: #229df9;
 }
 
+@media screen and (max-width: 1200px) {
+  body {
+    margin: auto;
+    text-align: center;
+  }
+
+  /*header*/
+  .header {
+    height: 150px;
+  }
+  .header_logo {
+    font-size: 5em;
+  }
+
+  /*footer*/
+  .footer {
+    height: 80px;
+  }
+  .footer_logo {
+    font-size: 2.2em;
+  }
+
+  /* index */
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav_menu {
+    width: 70%;
+    height: 450px;
+  }
+
+  .prc_btn {
+    font-size: 1.8em;
+    width: 50%;
+  }
+
+  /* menu */
+  .carte {
+    width: 80%;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  .carte_MP {
+    margin: 0;
+  }
+  .carte_MP_DT {
+    margin-bottom: 0;
+  }
+
+  dl {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  dt {
+    padding-right: 10%;
+    width: 100%;
+  }
+
+  dd {
+    padding-bottom: 30px;
+    padding-top: 5px;
+  }
+
+  ul {
+    padding-right: 10%;
+  }
+
+  li {
+    margin-bottom: 30px;
+  }
+}
 @media screen and (max-width: 600px) {
   body {
     margin: auto;
@@ -407,7 +488,7 @@ a {
     margin: 0;
   }
   .carte_MP_DT {
-    margin: 0;
+    margin-bottom: 0;
   }
 
   dl {

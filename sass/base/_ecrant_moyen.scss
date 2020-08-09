@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px){
+ @media screen and (max-width: 1200px){
     body{
         margin: auto;
         text-align: center;
@@ -7,18 +7,14 @@
     .header{
         height: 150px;
         &_logo{
-        font-size: 4em;
+        font-size: 5em;
         }
     }
     /*footer*/
     .footer{
-        flex-direction: column;
-        @include center;
-        padding-bottom: 20px;
-        padding-top: 20px;
-        height: 60px;
+        height: 80px;
         &_logo{
-            font-size: 2em;
+            font-size: 2.2em;
         }
     }
     /* index */
@@ -26,37 +22,20 @@
         flex-direction: column;
         align-items: center;
         &_menu{
-            width: 90%;
-            height: 350px;
-            & p{
-                font-size: 1.2em;
-            }& h2{
-                font-size: 2em;
-            }
+            width: 70%;
+            height: 450px;
         }
     }
 
     .prc_btn{
-        width: 85%;
         font-size: 1.8em;
-
+        width: 50%;
     }
 
     /* menu */
-    .titre{
-        font-size: 2em;
-        &_carte{
-            font-size: 1.9em;
-        }&_Pcarte{
-            font-size: 1.3em;
-            max-width: 42%;
-        }&_carte2{
-            font-size: 1.6em;
-        }
-    }
 
     .carte{
-        width: 95%;
+        width: 80%;
         align-items: center;
         padding-bottom: 0;
         &_MP{
@@ -75,13 +54,11 @@
     dt{
         padding-right: 10%;
         width: 100%;
-        font-size: 0.8em;
     }
 
     dd{
         padding-bottom: 30px;
-        font-size: 0.8em;
-        padding-top: 10px;
+        padding-top: 5px;
     }
 
     ul{
@@ -90,6 +67,5 @@
     
     li{
         margin-bottom: 30px;
-        font-size: 0.8em;
     }
 }

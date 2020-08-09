@@ -15,7 +15,6 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-bottom: 30px;
         margin-top: 30px;
         &_DT{
             font-size: 1.5em;
@@ -24,16 +23,23 @@
             width: 100%;
             & dd{
                 width: 20%;
+                @include center;
                 text-align: center;
                 margin: 0;
             }& dt{
                 width: 70%;
+                margin-bottom: 7px;
+                margin-top: 7px;
                 padding-left: 10%;
             }
         }& ul{
             font-size: 1.5em;
             list-style: none;
             padding-left: 10%;
+            & li{
+                margin-bottom: 7px;
+                margin-top: 7px;
+            }
         }
     }
 }
