@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  font-family: "Montserrat";
 }
 
 a {
@@ -189,6 +190,13 @@ a {
   transform: rotatey(180deg);
 }
 
+.police_menu {
+  font-family: "Architects Daughter";
+}
+.police_menu_spe {
+  font-family: "Noto Serif";
+}
+
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -274,6 +282,10 @@ a {
   fill: #6e4ccc;
 }
 
+.police_CLA {
+  font-family: "Croissant One";
+}
+
 .LNE {
   color: #3d1319;
   background-color: #fcdfdb;
@@ -303,6 +315,10 @@ a {
   margin-bottom: 30px;
 }
 
+.police_LNE {
+  font-family: "Devonshire";
+}
+
 #Dgradiant {
   fill: url(#Grad_PDG);
 }
@@ -323,6 +339,10 @@ a {
   color: #72bf56;
 }
 
+.police_PDG {
+  font-family: "Kaushan Script";
+}
+
 .coul_DDP {
   background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
   background-clip: text;
@@ -340,6 +360,10 @@ a {
 }
 .coul_DDP_3 {
   fill: #229df9;
+}
+
+.police_ddp {
+  font-family: "Dancing Script";
 }
 
 @media screen and (max-width: 1200px) {

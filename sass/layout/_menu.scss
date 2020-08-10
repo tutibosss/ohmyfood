@@ -75,3 +75,12 @@
        @include Rdessin;
     }
 }
+
+.police{
+    &_menu{
+        font-family: 'Architects Daughter';
+        &_spe{
+            font-family: 'Noto Serif';
+        }
+    }
+}
