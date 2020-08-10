@@ -9,7 +9,7 @@
     @include ctr-box;
     margin-bottom: 30px;
     padding-top: 30px;
-    width: 70%;
+    width: 75%;
     flex-direction: column;
     &_MP{
         display: flex;
@@ -47,10 +47,10 @@
 .titre{
     font-size: 2.7em;
     &_carte{
-        font-size: 2.6em;
+        font-size: 3.2em;
         margin-top: 10px;
     }&_Pcarte{
-        font-size: 2em;
+        font-size: 2.4em;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -73,14 +73,5 @@
     }&_D{
         @include dessin;
        @include Rdessin;
-    }
-}
-
-.police{
-    &_menu{
-        font-family: 'Architects Daughter';
-        &_spe{
-            font-family: 'Noto Serif';
-        }
     }
 }

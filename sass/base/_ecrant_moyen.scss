@@ -24,6 +24,9 @@
         &_menu{
             width: 70%;
             height: 450px;
+            & p{
+                max-width: 75%;
+            }
         }
     }
 
@@ -67,5 +70,12 @@
     
     li{
         margin-bottom: 30px;
+    }
+
+    .police{
+        &_PDG h1, &_ddp h1{
+            font-size: 4em;
+            width: 80%;
+        }
     }
 }

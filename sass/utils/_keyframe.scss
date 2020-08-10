@@ -12,15 +12,8 @@
 }
 
 @keyframes point{
-    0%{
-        @include anim-point;
-    }
     50%{
-        @include anim-point;
         transform: translateY(-3px);
-    }
-    100%{
-        @include anim-point;
     }
 }
 

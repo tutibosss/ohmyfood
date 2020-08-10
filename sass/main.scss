@@ -1,9 +1,9 @@
-@import "./base/base";
-
-
 @import "./utils/variable";
 @import "./utils/mixins";
 @import "./utils/keyframe";
+
+@import "./base/base";
+@import "./base/police";
 
 @import "./layout/header-footer";
 @import "./layout/menu";

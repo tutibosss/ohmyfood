@@ -1,0 +1,23 @@
+.police{
+    &_CLA{
+    font-family: 'Croissant One';
+    font-size: 12px;
+    }&_ddp{
+        font-family: 'Dancing Script';
+        font-size: 16px;
+        @include titre-geant;
+    }&_LNE{
+        font-family: 'Devonshire';
+        font-size: 20px;
+    }&_PDG{
+        font-family: 'Kaushan Script';
+        font-size: 15px;
+        @include titre-geant;
+    }&_menu{
+        font-family: 'Architects Daughter';
+        &_spe{
+            font-family: 'Noto Serif';
+        }
+    }
+}
+
