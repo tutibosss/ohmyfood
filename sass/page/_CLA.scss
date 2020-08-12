@@ -3,14 +3,26 @@
     @include transparent;
     &_CLA1{
     color: $colour-CLA-prim;
+        & h2{
+            background: linear-gradient(to top, $colour-CLA-prim 0%, $colour-CLA-prim 2px, transparent 5px) no-repeat;
+            @include anim-soul;
+        }
     }&_CLA_1{
         fill: $colour-CLA-prim;
     }&_CLA2{
         color: $colour-CLA-second;
+        & h2{
+            background: linear-gradient(to top, $colour-CLA-second 0%, $colour-CLA-second 2px, transparent 5px) no-repeat;
+            @include anim-soul;
+        }
     }&_CLA_2{
         fill: $colour-CLA-second;
     }&_CLA3{
         color: $colour-CLA-third;
+        & h2{
+            background: linear-gradient(to top, $colour-CLA-third 0%, $colour-CLA-third 2px, transparent 5px) no-repeat;
+            @include anim-soul;
+        }
     }&_CLA_3{
         fill: $colour-CLA-third;
     }

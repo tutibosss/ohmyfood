@@ -2,12 +2,12 @@
     background: linear-gradient(to right,$colour_DDP_1, $colour_DDP_2, $colour_DDP_3);
     @include transparent;
     &_menus{
-        color: $colour_DDP_3;
+         color: $colour_DDP_3;
     }&_1{
-        fill: $colour_DDP_1;
+           fill: $colour_DDP_1;
     }&_2{
         fill: $colour_DDP_2;
     }&_3{
         fill: $colour_DDP_3;
-        }
     }
+}

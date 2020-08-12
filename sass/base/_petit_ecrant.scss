@@ -1,4 +1,4 @@
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
     body{
         margin: auto;
         text-align: center;
@@ -49,7 +49,7 @@
         &_carte{
             font-size: 1.9em;
         }&_Pcarte{
-            font-size: 1.3em;
+            font-size: 1.5em;
             max-width: 42%;
         }&_carte2{
             font-size: 1.6em;
@@ -90,7 +90,7 @@
     }
     
     li{
-        margin-bottom: 30px;
+        padding-bottom: 20px;
         font-size: 0.8em;
     }
 

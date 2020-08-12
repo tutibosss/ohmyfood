@@ -1,15 +1,3 @@
-@keyframes souligne {
-  from {
-    background-color: black;
-    height: 3px;
-    width: 0%;
-  }
-  to {
-    height: 3px;
-    background-color: black;
-    width: 100%;
-  }
-}
 @keyframes point {
   50% {
     transform: translateY(-3px);
@@ -37,6 +25,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+h2 {
+  font-weight: normal;
 }
 
 .police_CLA {
@@ -168,16 +160,16 @@ a {
   text-align: center;
   display: flex;
   flex-direction: column;
+  background: linear-gradient(to top, black 0%, black 2px, transparent 5px) no-repeat;
+  display: inline;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
 }
-.titre_Pcarte:hover .anim-soul {
-  animation: souligne 0.5s forwards;
+.titre_Pcarte:hover {
+  background-size: 100% 100%;
 }
 .titre_carte2 {
   font-size: 2.2em;
-}
-
-.anim-soul {
-  height: 3px;
 }
 
 .dessin {
@@ -280,17 +272,44 @@ a {
 .coul_CLA1 {
   color: #c67412;
 }
+.coul_CLA1 h2 {
+  background: linear-gradient(to top, #c67412 0%, #c67412 2px, transparent 5px) no-repeat;
+  display: inline;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.coul_CLA1 h2:hover {
+  background-size: 100% 100%;
+}
 .coul_CLA_1 {
   fill: #c67412;
 }
 .coul_CLA2 {
   color: #a56799;
 }
+.coul_CLA2 h2 {
+  background: linear-gradient(to top, #a56799 0%, #a56799 2px, transparent 5px) no-repeat;
+  display: inline;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.coul_CLA2 h2:hover {
+  background-size: 100% 100%;
+}
 .coul_CLA_2 {
   fill: #a56799;
 }
 .coul_CLA3 {
   color: #6e4ccc;
+}
+.coul_CLA3 h2 {
+  background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 2px, transparent 5px) no-repeat;
+  display: inline;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.coul_CLA3 h2:hover {
+  background-size: 100% 100%;
 }
 .coul_CLA_3 {
   fill: #6e4ccc;
@@ -302,6 +321,15 @@ a {
 }
 .LNE path {
   fill: #3d1319;
+}
+.LNE h2 {
+  background: linear-gradient(to top, #3d1319 0%, #3d1319 2px, transparent 5px) no-repeat;
+  display: inline;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.LNE h2:hover {
+  background-size: 100% 100%;
 }
 
 .musique {
@@ -380,7 +408,7 @@ a {
 
   /*footer*/
   .footer {
-    height: 80px;
+    height: 90px;
   }
   .footer_logo {
     font-size: 2.2em;
@@ -405,6 +433,10 @@ a {
   }
 
   /* menu */
+  .titre_Pcarte {
+    max-width: 50%;
+  }
+
   .carte {
     width: 80%;
     align-items: center;
@@ -437,7 +469,7 @@ a {
   }
 
   li {
-    margin-bottom: 30px;
+    padding-bottom: 20px;
   }
 
   .police_PDG h1, .police_ddp h1 {
@@ -445,7 +477,7 @@ a {
     width: 80%;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
   body {
     margin: auto;
     text-align: center;
@@ -503,7 +535,7 @@ a {
     font-size: 1.9em;
   }
   .titre_Pcarte {
-    font-size: 1.3em;
+    font-size: 1.5em;
     max-width: 42%;
   }
   .titre_carte2 {
@@ -544,7 +576,7 @@ a {
   }
 
   li {
-    margin-bottom: 30px;
+    padding-bottom: 20px;
     font-size: 0.8em;
   }
 

@@ -45,3 +45,12 @@
         font-size: 5em;
     }
 }
+
+@mixin anim-soul{
+    display: inline;
+    background-size: 0 100%;
+    transition: background-size .3s;
+    &:hover{
+        background-size: 100% 100%;
+    }
+}
