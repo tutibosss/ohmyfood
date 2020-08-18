@@ -1,9 +1,9 @@
-.LNE{
+.coul_LNE{
     color: $colour-primary-LNE;
     background-color: $colour-spe-menu;
     & path{
         fill: $colour-primary-LNE;
-    }& h2{
+    }&_anim-soul{
         background: linear-gradient(to top, $colour-primary-LNE 0%, $colour-primary-LNE 2px, transparent 5px) no-repeat;
         @include anim-soul;
     }

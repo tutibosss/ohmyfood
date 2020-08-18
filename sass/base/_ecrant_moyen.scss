@@ -23,7 +23,8 @@
         align-items: center;
         &_menu{
             width: 70%;
-            height: 450px;
+            max-width: 525px;
+            height: 550px;
             & p{
                 max-width: 75%;
             }

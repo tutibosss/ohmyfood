@@ -1,13 +1,13 @@
 .coul_DDP{
     background: linear-gradient(to right,$colour_DDP_1, $colour_DDP_2, $colour_DDP_3);
     @include transparent;
-    &_menus{
+    &_index-menus{
          color: $colour_DDP_3;
-    }&_1{
+    }&_trait-1{
            fill: $colour_DDP_1;
-    }&_2{
+    }&_trait-2{
         fill: $colour_DDP_2;
-    }&_3{
+    }&_trait-3{
         fill: $colour_DDP_3;
     }
 }

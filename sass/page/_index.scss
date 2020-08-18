@@ -8,7 +8,7 @@
         @include ctr-box;
         flex-direction: column;
         width: 45%;
-        height: 600px;
+        height: 700px;
         margin-top: 50px;
         &:hover .zoom{
            animation: zoom ease-in-out .5s forwards;

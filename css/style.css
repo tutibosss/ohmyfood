@@ -204,7 +204,7 @@ h2 {
   border: 1px solid grey;
   flex-direction: column;
   width: 45%;
-  height: 600px;
+  height: 700px;
   margin-top: 50px;
 }
 .nav_menu:hover .zoom {
@@ -272,63 +272,63 @@ h2 {
 .coul_CLA1 {
   color: #c67412;
 }
-.coul_CLA1 h2 {
+.coul_CLA1_anim-soul {
   background: linear-gradient(to top, #c67412 0%, #c67412 2px, transparent 5px) no-repeat;
   display: inline;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
-.coul_CLA1 h2:hover {
+.coul_CLA1_anim-soul:hover {
   background-size: 100% 100%;
 }
-.coul_CLA_1 {
+.coul_CLA_trait-1 {
   fill: #c67412;
 }
 .coul_CLA2 {
   color: #a56799;
 }
-.coul_CLA2 h2 {
+.coul_CLA2_anim-soul {
   background: linear-gradient(to top, #a56799 0%, #a56799 2px, transparent 5px) no-repeat;
   display: inline;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
-.coul_CLA2 h2:hover {
+.coul_CLA2_anim-soul:hover {
   background-size: 100% 100%;
 }
-.coul_CLA_2 {
+.coul_CLA_trait-2 {
   fill: #a56799;
 }
 .coul_CLA3 {
   color: #6e4ccc;
 }
-.coul_CLA3 h2 {
+.coul_CLA3_anim-soul {
   background: linear-gradient(to top, #6e4ccc 0%, #6e4ccc 2px, transparent 5px) no-repeat;
   display: inline;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
-.coul_CLA3 h2:hover {
+.coul_CLA3_anim-soul:hover {
   background-size: 100% 100%;
 }
-.coul_CLA_3 {
+.coul_CLA_trait-3 {
   fill: #6e4ccc;
 }
 
-.LNE {
+.coul_LNE {
   color: #3d1319;
   background-color: #fcdfdb;
 }
-.LNE path {
+.coul_LNE path {
   fill: #3d1319;
 }
-.LNE h2 {
+.coul_LNE_anim-soul {
   background: linear-gradient(to top, #3d1319 0%, #3d1319 2px, transparent 5px) no-repeat;
   display: inline;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
-.LNE h2:hover {
+.coul_LNE_anim-soul:hover {
   background-size: 100% 100%;
 }
 
@@ -357,10 +357,10 @@ h2 {
   fill: url(#Grad_PDG);
 }
 
-.coul_1 {
+.coul_degrade-1 {
   stop-color: #3d923a;
 }
-.coul_2 {
+.coul_degrade-2 {
   stop-color: #95f833;
 }
 .coul_PDG {
@@ -369,7 +369,7 @@ h2 {
   -webkit-background-clip: text;
   color: transparent;
 }
-.coul_PDG_menu {
+.coul_PDG_index-menu {
   color: #72bf56;
 }
 
@@ -379,16 +379,16 @@ h2 {
   -webkit-background-clip: text;
   color: transparent;
 }
-.coul_DDP_menus {
+.coul_DDP_index-menus {
   color: #229df9;
 }
-.coul_DDP_1 {
+.coul_DDP_trait-1 {
   fill: #0228dd;
 }
-.coul_DDP_2 {
+.coul_DDP_trait-2 {
   fill: #0670f3;
 }
-.coul_DDP_3 {
+.coul_DDP_trait-3 {
   fill: #229df9;
 }
 
@@ -421,7 +421,8 @@ h2 {
   }
   .nav_menu {
     width: 70%;
-    height: 450px;
+    max-width: 525px;
+    height: 550px;
   }
   .nav_menu p {
     max-width: 75%;
@@ -512,6 +513,7 @@ h2 {
   }
   .nav_menu {
     width: 90%;
+    max-width: 270px;
     height: 350px;
   }
   .nav_menu p {

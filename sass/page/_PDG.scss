@@ -2,14 +2,14 @@
     fill: url(#Grad_PDG);
 }
 .coul{
-    &_1{
+    &_degrade-1{
         stop-color: $colour_primary_PDG;
-    }&_2{
+    }&_degrade-2{
         stop-color: $colour_second_PDG;
     }&_PDG{
             background: linear-gradient(to right,$colour_primary_PDG, $colour_second_PDG);
             @include transparent;
-            &_menu{
+            &_index-menu{
                 color: $colour_menus_PDG;
         }
     }
