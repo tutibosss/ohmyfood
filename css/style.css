@@ -265,7 +265,6 @@ h2 {
 
 .coul {
   background: linear-gradient(to right, #c67412, #a56799, #6e4ccc);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -334,7 +333,6 @@ h2 {
 
 .musique {
   background: linear-gradient(to right, #f37579, #f6916a);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -365,7 +363,6 @@ h2 {
 }
 .coul_PDG {
   background: linear-gradient(to right, #3d923a, #95f833);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -375,7 +372,6 @@ h2 {
 
 .coul_DDP {
   background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
