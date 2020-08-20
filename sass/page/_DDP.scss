@@ -1,6 +1,5 @@
 .coul_DDP{
-    background: linear-gradient(to right,$colour_DDP_1, $colour_DDP_2, $colour_DDP_3);
-    @include transparent;
+    @include gradient-text($colour_DDP_1, $colour_DDP_3, 'light');
     &_index-menus{
          color: $colour_DDP_3;
     }&_trait-1{

@@ -20,7 +20,6 @@
 body {
   margin: 0px;
   font-family: "Montserrat";
-  font-size: 100%;
 }
 
 a {
@@ -91,6 +90,9 @@ h2 {
 }
 .footer_logo:hover {
   animation: wiggle 0.1s linear infinite;
+}
+.footer_M-legal {
+  justify-content: center;
 }
 
 .conteneur-carte {
@@ -263,10 +265,29 @@ h2 {
   font-size: 2.6em;
 }
 
-.coul {
-  background: linear-gradient(to right, #c67412, #a56799, #6e4ccc);
-  -webkit-background-clip: text;
-  color: transparent;
+@supports (mix-blend-mode: lighten) {
+  .coul {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+  }
+  .coul::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #c67412, #6e4ccc);
+    pointer-events: none;
+  }
+  .coul::before {
+    mix-blend-mode: screen;
+  }
 }
 .coul_CLA1 {
   color: #c67412;
@@ -361,19 +382,57 @@ h2 {
 .coul_degrade-2 {
   stop-color: #95f833;
 }
-.coul_PDG {
-  background: linear-gradient(to right, #3d923a, #95f833);
-  -webkit-background-clip: text;
-  color: transparent;
+@supports (mix-blend-mode: lighten) {
+  .coul_PDG {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+  }
+  .coul_PDG::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #3d923a, #95f833);
+    pointer-events: none;
+  }
+  .coul_PDG::before {
+    mix-blend-mode: screen;
+  }
 }
 .coul_PDG_index-menu {
   color: #72bf56;
 }
 
-.coul_DDP {
-  background: linear-gradient(to right, #0228dd, #0670f3, #229df9);
-  -webkit-background-clip: text;
-  color: transparent;
+@supports (mix-blend-mode: lighten) {
+  .coul_DDP {
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: multiply;
+  }
+  .coul_DDP::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to right, #0228dd, #229df9);
+    pointer-events: none;
+  }
+  .coul_DDP::before {
+    mix-blend-mode: screen;
+  }
 }
 .coul_DDP_index-menus {
   color: #229df9;
@@ -386,6 +445,17 @@ h2 {
 }
 .coul_DDP_trait-3 {
   fill: #229df9;
+}
+
+.mention_legal {
+  font-size: 1.5em;
+}
+.mention_legal h2 {
+  text-align: center;
+}
+.mention_legal p {
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -587,6 +657,10 @@ h2 {
     width: 9px;
     height: 9px;
     margin-top: 15px;
+  }
+
+  .mention_legal {
+    font-size: 1em;
   }
 }
 

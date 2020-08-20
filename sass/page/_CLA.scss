@@ -1,6 +1,5 @@
 .coul{
-    background: linear-gradient(to right, $colour-CLA-prim,$colour-CLA-second,$colour-CLA-third);
-    @include transparent;
+    @include gradient-text($colour-CLA-prim, $colour-CLA-third, 'light');
     &_CLA1{
     color: $colour-CLA-prim;
         &_anim-soul{
