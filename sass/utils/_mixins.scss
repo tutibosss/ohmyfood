@@ -76,7 +76,7 @@
   }
 
 @mixin titre-geant{
-    & h1{
+    & .titre-geant{
         font-size: 5em;
     }
 }

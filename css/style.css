@@ -38,7 +38,7 @@ h2 {
   font-family: "Dancing Script";
   font-size: 16px;
 }
-.police_ddp h1 {
+.police_ddp .titre-geant {
   font-size: 5em;
 }
 .police_LNE {
@@ -49,7 +49,7 @@ h2 {
   font-family: "Kaushan Script";
   font-size: 15px;
 }
-.police_PDG h1 {
+.police_PDG .titre-geant {
   font-size: 5em;
 }
 .police_menu {
@@ -156,6 +156,7 @@ h2 {
 .titre_carte {
   font-size: 3.2em;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
 .titre_Pcarte {
   font-size: 2.4em;
